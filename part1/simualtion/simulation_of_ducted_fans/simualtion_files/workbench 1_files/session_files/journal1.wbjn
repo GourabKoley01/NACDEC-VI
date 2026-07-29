@@ -1,0 +1,8 @@
+# encoding: utf-8
+# 2020 R1
+SetScriptVersion(Version="20.1.164")
+template1 = GetTemplate(TemplateName="Fluid Flow")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="H:/air ambulance/simulation of ducted fans/drawing/VF390_110160 Nacelle.stp")
+Save(Overwrite=True)
