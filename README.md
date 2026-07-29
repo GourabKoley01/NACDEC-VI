@@ -43,12 +43,11 @@ Preliminary and second-iteration computational aerodynamic simulations were exec
 
 ## 📁 Repository Structure
 * `/part1/` - Conceptual sizing, mass-fraction breakdown, propulsion selection, and preliminary CFD analysis (NACDEC-VI Part 1).
-  *`/report/` - Complete design report documentation, CAD layouts, and performance curves.
-  * `/results/` - Aerodynamic pressure contours, velocity vectors, and simulation visual exports.
+  * `/part1/report/` - Complete design report documentation, CAD layouts, and performance curves.
+  * `/part1/results/` - Aerodynamic pressure contours, velocity vectors, and simulation visual exports.
 * `/part2/` - Advanced airfoil refinement, hybrid hydrogen energy system sizing, drag build-up, and thrust-vectoring control analysis (NACDEC-VI Part 2).
-
 
 ---
 
 ## ⚠️ Repository Notes & Disclaimers
-> **File Size Constraints:** Raw Ansys Fluent `.cas`, `.dat`, and `.msh` mesh files have been omitted from this repository due to GitHub's individual file size limits ($>100\text{ MB}$). Complete boundary conditions, mesh refinement metrics, and solver setups are fully documented within the engineering reports in `/report/`.
+> **File Size Constraints:** Raw Ansys Fluent `.cas`, `.dat`, and `.msh` mesh files have been omitted from this repository due to GitHub's individual file size limits ($>100\text{ MB}$). Complete boundary conditions, mesh refinement metrics, and solver setups are fully documented within the engineering reports in `/part1/report/`.
